@@ -1,9 +1,9 @@
-name: Staging the app
+name: Stage the app
 
 on: 
   pull_request:
-    type: [labeled]
-    
+    types: [labeled]
+
 jobs:
   build:
     runs-on: ubuntu-latest
